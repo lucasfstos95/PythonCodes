@@ -16,4 +16,3 @@ elif op==3:
 elif op==4:  
     r = n1/n2
     print(f"O resultado da operação {n1:.2f} / {n2:.2f} = {r:.2f} ")
-
