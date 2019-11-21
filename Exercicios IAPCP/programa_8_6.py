@@ -1,3 +1,4 @@
+#Programa 8.6 - Função fatorial rastreada
 def fatorial(n):
     print(f"Calculando o fatorial de {n}")
     if n == 0 or n ==1:
@@ -7,4 +8,5 @@ def fatorial(n):
         fat = n * fatorial(n-1)
         print(f"Fatorial de {n}: {fat}")
         return fat
+        
 print(f"Resultado: {fatorial(4)}")
