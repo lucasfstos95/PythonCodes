@@ -1,10 +1,6 @@
-def fatorial(n):
-    print(f"Calculando o fatorial de {n}")
-    if n == 0 or n ==1:
-        print(f"Fatorial de {n} = 1")
-        return 1
-    else: 
-        fat = n * fatorial(n-1)
-        print(f"Fatorial de {n}: {fat}")
-        return fat
-print(f"Resultado: {fatorial(4)}")
+class pessoa():
+
+    def __init__(self, _nome, _idade, _sexo):
+        self.nome = _nome
+        self.idade = _idade
+        self.sexo = _sexo 
